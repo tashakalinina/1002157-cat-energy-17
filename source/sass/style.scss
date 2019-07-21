@@ -1,5 +1,57 @@
 @import "font.scss";
 
-body {
-  background: yellow;
-}
+@import "variables.scss";
+
+@import "normalize.scss";
+
+@import "global.scss";
+
+@import "blocks/visually-hidden.scss";
+
+@import "blocks/site-list.scss";
+
+@import "blocks/head-main.scss";
+
+@import "blocks/button.scss";
+
+@import "blocks/program-block.scss";
+
+@import "blocks/advantages.scss";
+
+@import "blocks/example.scss";
+
+@import "blocks/contact.scss";
+
+@import "blocks/developer.scss";
+
+@import "blocks/inner-title.scss";
+
+@import "blocks/сard-product.scss";
+
+@import "blocks/characteristic.scss";
+
+@import "blocks/additional-goods.scss";
+
+@import "blocks/additional-card.scss";
+
+@import "blocks/additional-characteristic.scss";
+
+@import "blocks/promo.scss";
+
+@import "blocks/food-selection.scss";
+
+@import "blocks/cat-info.scss";
+
+@import "blocks/target.scss";
+
+@import "blocks/radio-block.scss";
+
+@import "blocks/contact-form.scss";
+
+@import "blocks/comment-form.scss";
+
+@import "blocks/additional-info.scss";
+
+@import "blocks/checkbox-block.scss";
+
+

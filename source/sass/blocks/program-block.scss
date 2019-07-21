@@ -1,0 +1,41 @@
+.program-block {
+  background-color: $bg-color;
+  padding-left: 20px;
+  padding-bottom: 22px;
+}
+
+.program-block__title {
+  font-size: 36px;
+  line-height: 37px;
+  color: $header-color;
+  padding: 0;
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+.program-block__description {
+  font-family: "Arial" sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: $basic-color;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba($header-color, 0.1);
+}
+
+.program-block__link {
+  color:  $header-color;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 20px;
+
+
+  &:active {
+    color: rgba($header-color, 0.3);
+  }
+}

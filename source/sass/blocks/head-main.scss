@@ -1,0 +1,20 @@
+.head-main {
+  color: $contrast-color;
+  background-color: $color-details;
+}
+
+.head-main__title {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.head-main__slogan {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}

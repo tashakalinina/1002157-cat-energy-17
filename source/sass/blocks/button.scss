@@ -1,0 +1,18 @@
+.button {
+  background-color: $color-details;
+  color: $contrast-color;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+  &:hover,
+  &:focus {
+    background-color: $details-hover;
+  }
+  &:active {
+    background-color: $details-hover;
+    color: rgba($contrast-color, 0.3);
+  }
+}

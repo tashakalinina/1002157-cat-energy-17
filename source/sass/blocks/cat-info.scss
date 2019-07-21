@@ -1,0 +1,28 @@
+.cat-info {
+  border: none;
+}
+
+.cat-info__label {
+  font-size: 16px;
+  line-height: 18px;
+  color: $add-header;
+}
+
+.cat-info__input {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 18px;
+  color: $basic-color;
+  border: 1px solid rgba($border-form, 0.5);
+
+  &:focus,
+  &:hover {
+    border: 1px solid rgba($border-form, 1);
+  }
+
+  &:active {
+    border: 1px solid $basic-color;
+  }
+}
