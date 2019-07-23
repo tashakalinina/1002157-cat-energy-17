@@ -1,10 +1,8 @@
-@import "font.scss";
+@import "global/font.scss";
 
-@import "variables.scss";
+@import "global/variables.scss";
 
-@import "normalize.scss";
-
-@import "global.scss";
+@import "global/global.scss";
 
 @import "blocks/visually-hidden.scss";
 
@@ -53,5 +51,3 @@
 @import "blocks/additional-info.scss";
 
 @import "blocks/checkbox-block.scss";
-
-
