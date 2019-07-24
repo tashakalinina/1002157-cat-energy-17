@@ -1,0 +1,10 @@
+.developer__link {
+  font-family: $secondary-font, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: $basic-color;
+
+  &:active {
+    color: rgba($basic-color, 0.3);
+  }
+}
