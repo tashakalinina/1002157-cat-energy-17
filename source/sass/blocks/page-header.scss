@@ -1,0 +1,42 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0 auto;
+}
+
+.page-header__logo {
+  height: 65px;
+  margin: 0 auto;
+}
+
+.page-header__main-nav {
+  width: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    padding: 0 30px;
+  }
+
+  .page-header__logo {
+    margin: 0;
+  }
+
+  .page-header__main-nav {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1220px;
+    padding: 0 60px;
+  }
+}

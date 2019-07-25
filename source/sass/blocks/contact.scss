@@ -1,3 +1,10 @@
+.contact__wrapper {
+  width: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .contact__description {
   font-size: 16px;
   line-height: 20px;
@@ -5,6 +12,7 @@
   color: $header-color;
   margin: 0;
   padding: 0;
+  width: 130px;
 }
 
 .contact__adress {
@@ -14,4 +22,16 @@
   color: $basic-color;
   margin: 0;
   padding: 0;
+  width: 140px;
+}
+
+@media (min-width: $desktop-width) {
+  .contact__map {
+    position: relative;
+  }
+
+  .contact__wrapper {
+    width: 570px;
+    justify-content: space-around;
+  }
 }

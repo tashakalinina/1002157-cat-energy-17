@@ -1,32 +1,23 @@
-.additional-goods {
+.nutrition-programs {
   display: flex;
   flex-direction: column;
   width: auto;
   padding: 0 20px;
 }
 
-.additional-goods__title {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  color: $header-color;
-  margin: 0;
-  padding: 0;
-}
-
 @media (min-width: $tablet-width) {
-  .additional-goods {
+  .nutrition-programs {
     width: auto;
     padding: 0 30px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .additional-goods {
-    width: auto;
-    padding: 0 60px;
+  .nutrition-programs {
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
+    width: 1220px;
+    padding: 0 60px;
+    margin: 0 auto;
   }
 }

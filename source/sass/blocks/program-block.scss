@@ -1,7 +1,7 @@
 .program-block {
   background-color: $bg-color;
-  padding-left: 20px;
   padding-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .program-block__title {
@@ -23,7 +23,7 @@
   padding: 0;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-top: 1px solid rgba($header-color, 0.1);
+  border-bottom: 1px solid rgba($header-color, 0.1);
 }
 
 .program-block__link {
@@ -35,5 +35,17 @@
 
   &:active {
     color: rgba($header-color, 0.3);
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .program-block  {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-block  {
+    width: 570px;
   }
 }

@@ -1,6 +1,6 @@
 .сard-product {
-  border: 1px solid $border-color;
-  padding: 25px 20px;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 
 .сard-product__title {
@@ -11,4 +11,19 @@
   color: $header-color;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .сard-product {
+    width: 325px;
+    background-color: $bg-color;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .сard-product {
+    width: 245px;
+    background-color: $bg-color;
+  }
 }

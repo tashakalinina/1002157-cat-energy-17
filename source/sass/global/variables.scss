@@ -19,7 +19,10 @@ $bg-color: $light-gray;
 $border-color: $very_light-gray;
 $border-form: $gray;
 
-
 /*Шрифты*/
 $primary-font: "Oswald", "Arial", sans-serif;
 $secondary-font: "Arial", sans-serif;
+
+/*Ширина viewport*/
+$tablet-width: 768px;
+$desktop-width: 1220px;
