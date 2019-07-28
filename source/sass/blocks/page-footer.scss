@@ -19,12 +19,13 @@
 }
 
 @media (min-width: $tablet-width) {
-  .page-footer  {
+  .page-footer {
     flex-direction: row;
     justify-content: space-between;
     width: auto;
     padding: 0 30px;
   }
+
   .page-footer__logo {
     margin: 0;
   }
@@ -39,7 +40,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-footer  {
+  .page-footer {
     flex-direction: row;
     justify-content: space-between;
     width: auto;
