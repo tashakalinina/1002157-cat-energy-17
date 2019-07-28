@@ -28,32 +28,34 @@
       <h1 class="inner-title">Подбор программы</h1>
       <form method="POST" action="https://echo.htmlacademy.ru" class="food-selection">
         <p class="food-selection__description">Заполните анкету и мы подберем  программу питания для вашего кота</p>
-        <fieldset class="food-selection__fieldset cat-info">
-          <legend class="visually-hidden">Общая информация о питомце</legend>
-          <label class="cat-info__label">
-            Имя:<sup>*</sup>
-            <input class="cat-info__input" type="text" name="cat-name" placeholder="Барсик" required>
-          </label>
-          <label class="cat-info__label">
-            Вес (кг):<sup>*</sup>
-            <input class="cat-info__input" type="text" name="cat-weight" placeholder="7" required></label>
-          <label class="cat-info__label">Возраст (лет):<sup></sup><input class="cat-info__input" type="text" name="cat-age" placeholder="7"></label>
-        </fieldset>
-        <fieldset class="food-selection__fieldset target">
-          <legend class="visually-hidden">Цель</legend>
-          <div class="target__input radio-block">
-            <input class="radio-block__input" type="radio" name="target" value="weight-loss" id="weight-loss" checked>
-            <label class="radio-block__label" for="weight-loss">Похудение</label>
-          </div>
-          <div class="target__input radio-block">
-            <input class="radio-block__input" type="radio" name="target" value="weight-gain" id="weight-gain">
-            <label class="radio-block__label" for="weight-gain">Набор массы</label>
-          </div>
-          <div class="target__input radio-block">
-            <input class="radio-block__input" type="radio" name="target" value="dont-no" id="dont-no">
-            <label class="radio-block__label" for="dont-no">Не знаю (Нужен ваш совет)</label>
-          </div>
-        </fieldset>
+        <div class="food-selection__wrapper">
+          <fieldset class="food-selection__fieldset cat-info">
+            <legend class="visually-hidden">Общая информация о питомце</legend>
+            <label class="cat-info__label">
+              Имя:<sup>*</sup>
+              <input class="cat-info__input" type="text" name="cat-name" placeholder="Барсик" required>
+            </label>
+            <label class="cat-info__label">
+              Вес (кг):<sup>*</sup>
+              <input class="cat-info__input" type="text" name="cat-weight" placeholder="7" required></label>
+            <label class="cat-info__label">Возраст (лет):<sup></sup><input class="cat-info__input" type="text" name="cat-age" placeholder="7"></label>
+          </fieldset>
+          <fieldset class="food-selection__fieldset target">
+            <legend class="visually-hidden">Цель</legend>
+            <div class="target__input radio-block">
+              <input class="radio-block__input" type="radio" name="target" value="weight-loss" id="weight-loss" checked>
+              <label class="radio-block__label" for="weight-loss">Похудение</label>
+            </div>
+            <div class="target__input radio-block">
+              <input class="radio-block__input" type="radio" name="target" value="weight-gain" id="weight-gain">
+              <label class="radio-block__label" for="weight-gain">Набор массы</label>
+            </div>
+            <div class="target__input radio-block">
+              <input class="radio-block__input" type="radio" name="target" value="dont-no" id="dont-no">
+              <label class="radio-block__label" for="dont-no">Не знаю (Нужен ваш совет)</label>
+            </div>
+          </fieldset>
+        </div>
         <fieldset class="food-selection__fieldset contact-form">
           <legend class="contact-form__title">Контактные данные (владельца кота)</legend>
           <label class="contact-form__label">E-mail:<sup>*</sup><input class="contact-form__input" type="email" name="email" placeholder="kuklachev@gmail.com" required></label>

@@ -1,6 +1,4 @@
 .additional-goods {
-  display: flex;
-  flex-direction: column;
   width: auto;
   padding: 0 20px;
 }
@@ -14,6 +12,16 @@
   padding: 0;
 }
 
+.additional-goods__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-goods__list {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: $tablet-width) {
   .additional-goods {
     width: auto;
@@ -25,8 +33,15 @@
   .additional-goods {
     width: auto;
     padding: 0 60px;
+  }
+
+  .additional-goods__wrapper {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .additional-goods__list {
+    flex-direction: row;
   }
 }

@@ -1,4 +1,23 @@
 .target {
   border: none;
   padding: 0;
+  width: auto;
+  border-top: solid 1px $border-form;
+  border-bottom: solid 1px $border-form;
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .target {
+    width: auto;
+    padding: 0;
+    border: solid 1px $border-form;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .target {
+    width: 570px;
+    padding: 0;
+  }
 }

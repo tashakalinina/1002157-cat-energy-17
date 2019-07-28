@@ -1,4 +1,18 @@
 .additional-info {
   border: none;
-  padding: 0;
+  width: auto;
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .additional-info  {
+    width: auto;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional-info  {
+    padding: 0;
+  }
 }
