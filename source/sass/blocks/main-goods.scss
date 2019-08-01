@@ -1,14 +1,10 @@
 .main-goods {
   display: flex;
   flex-direction: column;
-  width: auto;
-  padding: 0 20px;
 }
 
 @media (min-width: $tablet-width) {
   .main-goods {
-    width: auto;
-    padding: 0 30px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,8 +13,6 @@
 
 @media (min-width: $desktop-width) {
   .main-goods {
-    width: auto;
-    padding: 0 60px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 .cat-info {
   border: none;
-  width: auto;
-  padding: 0 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .cat-info__label {
@@ -29,17 +29,9 @@
   }
 }
 
-@media (min-width: $tablet-width) {
-  .cat-info {
-    width: auto;
-    padding: 0;
-  }
-}
-
 @media (min-width: $desktop-width) {
   .cat-info {
     width: 580px;
-    padding: 0;
     display: flex;
     flex-direction: column;
   }

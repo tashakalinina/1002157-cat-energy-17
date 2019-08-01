@@ -3,16 +3,3 @@
   width: auto;
   padding: 0 20px;
 }
-
-@media (min-width: $tablet-width) {
-  .comment-form {
-    width: auto;
-    padding: 0;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .comment-form {
-    padding: 0;
-  }
-}
