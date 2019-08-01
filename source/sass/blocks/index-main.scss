@@ -4,20 +4,20 @@
 }
 
 .index-main__wrapper {
-	width: auto;
-	padding: 0 20px;
+  width: auto;
+  padding: 0 20px;
 }
 
 @media (min-width: $tablet-width) {
-	.index-main__wrapper {
-		width: auto;
-		padding: 0 30px;
-	}
+  .index-main__wrapper {
+    width: auto;
+    padding: 0 30px;
+  }
 }
-  
+
 @media (min-width: $desktop-width) {
-	.index-main__wrapper {
-		width: auto;
-		padding: 0 60px;
-	}
+  .index-main__wrapper {
+    width: auto;
+    padding: 0 60px;
+  }
 }
