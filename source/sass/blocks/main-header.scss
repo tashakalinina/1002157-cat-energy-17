@@ -1,29 +1,29 @@
-.page-header {
+.main-header {
   display: flex;
   flex-direction: column;
 }
 
-.page-header__logo {
+.main-header__logo {
   margin-left: auto;
   margin-right: auto;
 }
 
-.page-header__main-nav {
+.main-header__main-nav {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (min-width: $tablet-width) {
-  .page-header {
+  .main-header {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .page-header__logo {
+  .main-header__logo {
     margin: 0;
   }
   
-  .page-header__main-nav {
+  .main-header__main-nav {
     margin: 0;
   }
 }

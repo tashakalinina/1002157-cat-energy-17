@@ -1,8 +1,6 @@
 .head-main {
   color: $contrast-color;
   background-color: $color-details;
-  width: auto;
-  padding: 0 20px;
 }
 
 .head-main__title {
@@ -19,19 +17,4 @@
   line-height: 14px;
   text-align: center;
   text-transform: uppercase;
-}
-
-
-@media (min-width: $tablet-width) {
-  .head-main {
-    width: auto;
-    padding: 0 30px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .head-main {
-    width: auto;
-    padding: 0 60px;
-  }
 }

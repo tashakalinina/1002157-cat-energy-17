@@ -1,20 +1,7 @@
-.nutrition-programs {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-}
-
-@media (min-width: $tablet-width) {
-  .nutrition-programs {
-    width: auto;
-  }
-}
-
 @media (min-width: $desktop-width) {
   .nutrition-programs {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1220px;
-    margin: 0 auto;
   }
 }

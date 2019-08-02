@@ -4,15 +4,6 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  width: auto;
-  padding: 0 20px;
-}
-
-@media (min-width: $tablet-width) {
-  .promo {
-    width: auto;
-    padding: 0 30px;
-  }
 }
 
 @media (min-width: $desktop-width) {

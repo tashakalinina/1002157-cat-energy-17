@@ -1,12 +1,6 @@
 .example {
   background-color: $bg-color;
-  width: auto;
   padding-bottom: 22px;
-}
-
-.example__wrapper {
-  width: auto;
-  padding: 0 20px;
 }
 
 .example__title {
@@ -27,19 +21,4 @@
   line-height: 18px;
   color: $basic-color;
   padding-top: 10px;
-}
-
-@media (min-width: $tablet-width) {
-  .example__wrapper {
-    width: auto;
-    padding: 0 30px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .example__wrapper {
-    width: 1220px;
-    padding: 0 60px;
-    margin: 0 auto;
-  }
 }
