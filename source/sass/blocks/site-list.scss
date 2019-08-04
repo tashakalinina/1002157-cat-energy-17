@@ -5,6 +5,7 @@
   line-height: 20px;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .site-list__link {
@@ -24,5 +25,12 @@
 
   &--active {
     border-bottom: 2px solid $color-details;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

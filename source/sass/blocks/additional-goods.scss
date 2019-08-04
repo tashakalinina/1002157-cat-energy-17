@@ -6,3 +6,16 @@
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: $desktop-width) {
+  .additional-goods__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .additional-goods__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

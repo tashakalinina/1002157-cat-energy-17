@@ -1,0 +1,29 @@
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header__logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header__main-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-header__logo {
+    margin: 0;
+  }
+
+  .main-header__main-nav {
+    margin: 0;
+  }
+}

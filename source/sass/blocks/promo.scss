@@ -5,3 +5,10 @@
   line-height: 20px;
   text-align: center;
 }
+
+@media (min-width: $desktop-width) {
+  .promo {
+    width: 245px;
+    min-height: 289px;
+  }
+}

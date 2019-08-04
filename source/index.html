@@ -2,12 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
-    <header class="index-header">
-      <div class="index-header__logo logo">
+    <header class="main-header container">
+      <div class="main-header__logo logo">
         <a class="logo__icon">
           <img src="#" width="33" height="38" alt="Логотип Cat Energy">
         </a>
@@ -15,7 +16,7 @@
           <img  src="#" width="101" height="18" alt="Логотип Cat Energy"> <!--уточнить размеры-->
         </a>
       </div>
-      <nav class="index-header__main-nav main-nav">
+      <nav class="main-header__main-nav main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active"><a class="site-list__link site-list__link--active">Главная</a></li>
@@ -26,11 +27,13 @@
     </header>
     <main>
       <section class="head-main">
-        <h1 class="head-main__title">Функциональное питание для котов</h1>
-        <p class="head-main__slogan">Занялся собой? Займись котом!</p>
-        <a class="head-main__button button" href="#">Подобрать программу</a>
+        <div class="head-main__wrapper container">
+          <h1 class="head-main__title">Функциональное питание для котов</h1>
+          <p class="head-main__slogan">Занялся собой? Займись котом!</p>
+          <a class="head-main__button button" href="#">Подобрать программу</a>
+        </div>
       </section>
-      <section class="nutrition-programs">
+      <section class="nutrition-programs container">
         <h2 class="visually-hidden">Программы питания</h2>
         <article class="nutrition-programs__item program-block">
           <h3 class="program-block__title program-block__title--weight-loss">Похудение</h3>
@@ -43,7 +46,7 @@
           <a class="program-block__link" href="#">Каталог pro</a>
         </article>
       </section>
-      <section class="advantages">
+      <section class="advantages container">
         <h2 class="advantages__title">Как это работает</h2>
         <ul class="advantages__list">
           <li class="advantages__item advantages__item--eco">Функциональное питание содержит только полезные питательные вещества.</li>
@@ -53,31 +56,37 @@
         </ul>
       </section>
       <section class="example">
-        <h2 class="example__title">Живой пример</h2>
-        <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-        <!--Слайдер с котом-->
+        <div class="example__wrapper container">
+          <h2 class="example__title">Живой пример</h2>
+          <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+          <div class="example__slider"><!--Слайдер с котом--></div>
+        </div>
       </section>
       <section class="contact">
         <h2 class="visually-hidden">Наши контакты</h2>
-        <p class="contact__description">Приглашаем к сотрудничеству дилеров!</p>
-        <p class="contact__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <div class="contact__wrapper container">
+          <p class="contact__description">Приглашаем к сотрудничеству дилеров!</p>
+          <p class="contact__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
         <img class="contact__map map" src="#" width="320" height="400" alt="Наш офис расположен ул. Большая Конюшенная, д. 19/8 Санкт-Петербург"> <!--Уточнить размеры-->
       </section>
     </main>
     <footer class="page-footer">
-      <div class="page-footer__logo logo">
-        <a class="logo__image">
-          <img  src="#" width="101" height="18" alt="Логотип Cat Energy"> <!--уточнить размеры-->
-        </a>
-      </div>
-      <div class="page-footer__social social">
-        <a class="social__link social__link--vk" href="#"><span class="visually-hidden">Вконтакте</span></a>
-        <a class="social__link social__link--ig" href="#"><span class="visually-hidden">Инстаграм</span></a>
-        <a class="social__link social__link--fb" href="#"><span class="visually-hidden">Фейсбук</span></a>
-      </div>
-      <div class="page-footer__developer developer">
-        <a class="developer__logo"><img src="" alt="Разработано htmlacademy"></a> <!--уточнить размеры-->
-        <a class="developer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      <div class="page-footer__wrapper container">
+        <div class="page-footer__logo logo">
+          <a class="logo__image">
+            <img  src="#" width="101" height="18" alt="Логотип Cat Energy"> <!--уточнить размеры-->
+          </a>
+        </div>
+        <div class="page-footer__social social">
+          <a class="social__link social__link--vk" href="#"><span class="visually-hidden">Вконтакте</span></a>
+          <a class="social__link social__link--ig" href="#"><span class="visually-hidden">Инстаграм</span></a>
+          <a class="social__link social__link--fb" href="#"><span class="visually-hidden">Фейсбук</span></a>
+        </div>
+        <div class="page-footer__developer developer">
+          <a class="developer__logo"><img src="" alt="Разработано htmlacademy"></a> <!--уточнить размеры-->
+          <a class="developer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
       </div>
     </footer>
   </body>

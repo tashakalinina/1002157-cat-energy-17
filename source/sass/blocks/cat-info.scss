@@ -1,6 +1,7 @@
 .cat-info {
   border: none;
   padding: 0;
+  margin: 0;
 }
 
 .cat-info__label {
@@ -25,5 +26,13 @@
 
   &:active {
     border: 1px solid $basic-color;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cat-info {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
   }
 }
