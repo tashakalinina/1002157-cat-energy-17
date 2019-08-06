@@ -17,6 +17,12 @@
   color: $basic-color;
 }
 
+@media (min-width: $tablet-width) {
+  .advantages__title {
+    font-size: 60px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .advantages__list {
     display: flex;
