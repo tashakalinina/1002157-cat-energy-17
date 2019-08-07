@@ -4,7 +4,14 @@
   font-weight: 400;
   color: $header-color;
   padding-top: 18px;
-  padding-bottom: 21px;
+  padding-bottom: 23px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+
+@media (min-width: $tablet-width) {
+  .inner-title  {
+    font-size: 60px;
+  }
 }

@@ -17,21 +17,50 @@
   color: $basic-color;
 }
 
+.advantages__item {
+  position: relative;
+  padding-top: 28px;
+  padding-left: 80px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+  
+    width: 60px;
+    height: 60px;
+    background-color: $color-details;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .advantages__title {
     font-size: 60px;
   }
-}
 
-@media (min-width: $desktop-width) {
   .advantages__list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 63px;
+    
   }
 
   .advantages__item {
     width: 260px;
+    padding-left: 0;
+    padding-top: 115px;
+    padding-bottom: 55px;
+    min-height: 65px;
+
+    &::before {
+      top: 0;
+      left: 0;
+      width: 80px;
+      height: 80px;
+    }
   }
 }
