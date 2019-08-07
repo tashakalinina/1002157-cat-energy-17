@@ -1,8 +1,5 @@
 .site-list {
   list-style-type: none;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -17,9 +14,10 @@
 .site-list__link {
   color: $header-color;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 20px;
+  font-weight: 500;
   text-transform: uppercase;
-   
+
   &:hover,
   &:focus {
     opacity: 0.6;
@@ -38,5 +36,30 @@
   .site-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 438px;
+  }
+
+  .site-list__item {
+    border-bottom: none;
+    padding-top: 19px;
+  }
+
+  .site-list__link {
+    color: $header-color;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 480px;
+  }
+
+  .site-list__link {
+    font-size: 20px;
+    /*поменять цвет*/
   }
 }

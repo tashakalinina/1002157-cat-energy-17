@@ -4,19 +4,14 @@
 }
 
 .page-header__logo {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.page-header__main-nav {
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 10px;
 }
 
 @media (min-width: $tablet-width) {
   .page-header {
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 24px;
   }
 
   .page-header__logo {
@@ -25,5 +20,11 @@
 
   .page-header__main-nav {
     margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    padding-top: 53px;
   }
 }

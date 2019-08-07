@@ -3,10 +3,15 @@
   flex-direction: column;
 }
 
+.main-header__logo {
+  padding-top: 10px;
+}
+
 @media (min-width: $tablet-width) {
   .main-header {
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 24px;
   }
 
   .main-header__logo {
@@ -15,5 +20,11 @@
 
   .main-header__main-nav {
     margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-header {
+    padding-top: 53px;
   }
 }

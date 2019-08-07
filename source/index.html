@@ -13,7 +13,7 @@
           <img src="img/logo-mobile.svg" width="191" height="39" alt="Логотип Cat Energy">
         </a>
       </div>
-      <nav class="main-header__main-nav main-nav main-nav--opened">
+      <nav class="main-header__main-nav main-nav main-nav--closed main-nav--nojs">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active"><a class="site-list__link site-list__link--active">Главная</a></li>
@@ -86,5 +86,21 @@
         </div>
       </div>
     </footer>
+    <script>
+      var navMain = document.querySelector('.main-nav');
+      var navToggle = document.querySelector('.main-nav__toggle');
+
+      navMain.classList.remove('main-nav--nojs');
+
+      navToggle.addEventListener('click', function() {
+        if (navMain.classList.contains('main-nav--closed')) {
+          navMain.classList.remove('main-nav--closed');
+          navMain.classList.add('main-nav--opened');
+        } else {
+          navMain.classList.add('main-nav--closed');
+          navMain.classList.remove('main-nav--opened');
+        }
+      });
+    </script>
   </body>
 </html>
