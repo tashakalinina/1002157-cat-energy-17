@@ -60,6 +60,10 @@
 
   .site-list__link {
     font-size: 20px;
-    /*поменять цвет*/
+
+    &--white {
+    color: $contrast-color;
+    border-color: $contrast-color;
+    }
   }
 }
