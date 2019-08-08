@@ -1,6 +1,8 @@
 .additional-card {
   padding-top: 14px;
   padding-bottom: 17px;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 
 .additional-card__title {
@@ -11,4 +13,5 @@
   margin: 0;
   padding: 0;
   padding-bottom: 8px;
+  text-transform: uppercase;
 }
