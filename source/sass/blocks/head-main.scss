@@ -28,12 +28,10 @@
 
   &::before {
     content: "";
-  
     position: absolute;
     top: 139px;
     left: center;
     z-index: 10;
-  
     width: 280px;
     height: 270px;
     background-image: url("../img/index-can-mobile@1x.png");
@@ -82,7 +80,7 @@
     width: 450px;
     padding-bottom: 16px;
   }
-  
+
   .head-main__slogan {
     font-size: 20px;
     line-height: 20px;
@@ -91,13 +89,12 @@
   }
 
   .head-main__wrapper {
-  
+
     &::before {
-    
+
       top: 200px;
       left: 150px;
       z-index: 10;
-    
       width: 280px;
       height: 270px;
       background-image: url("../img/index-can-mobile@1x.png");
@@ -124,30 +121,27 @@
     &::before {
       display: block;
       content: "";
-
       position: absolute;
       top: -122px;
       left: 50%;
       z-index: -1;
-  
       width: 760px;
       height: 696px;
       background-color: $color-details;
       background-image: url("../img/index-background-mobile@1x.jpg");
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;      
+      background-size: cover;
     }
   }
 
   .head-main__wrapper {
-  
+
     &::before {
-    
+
       top: 0;
       left: 40%;
       z-index: 10;
-    
       width: 280px;
       height: 270px;
       background-image: url("../img/index-can-mobile@1x.png");
@@ -159,7 +153,6 @@
   .head-main__button {
     top: 225px;
     left: 60px;
-
     margin: 0;
   }
 }

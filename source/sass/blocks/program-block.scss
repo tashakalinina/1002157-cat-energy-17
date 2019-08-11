@@ -3,7 +3,7 @@
   padding-top: 32px;
   padding-bottom: 22px;
   padding-left: 20px;
-  padding-right: 35px; 
+  padding-right: 35px;
   margin-bottom: 20px;
 }
 
@@ -14,7 +14,7 @@
   color: $header-color;
   padding: 0;
   padding-bottom: 20px;
-  padding-left: 70px; 
+  padding-left: 70px;
   margin: 0;
   font-weight: 400;
   text-transform: uppercase;
@@ -24,7 +24,6 @@
     position: absolute;
     top: -10px;
     left: 0;
-  
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -70,11 +69,10 @@
     font-size: 36px;
     padding-bottom: 10px;
     padding-left: 0;
-    
+
     &::before {
       top: 0;
       left: 400px;
-    
       width: 200px;
       height: 200px;
       border-radius: 50%;
@@ -82,34 +80,33 @@
     }
   }
 
- .program-block__description {
-  font-size: 16px;
-  line-height: 24px;
-  border-bottom: none;
- }
+  .program-block__description {
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: none;
+  }
 
   .program-block__link {
     font-size: 20px;
     line-height: 20px;
     padding-top: 40px;
   }
-} 
+}
 
 @media (min-width: $desktop-width) {
   .program-block {
     width: 462px;
     padding-left: 52px;
-    padding-right: 56px; 
+    padding-right: 56px;
   }
 
   .program-block__title {
     padding-bottom: 65px;
     padding-left: 164px;
-    
+
     &::before {
       top: -30px;
       left: 0;
-    
       width: 100px;
       height: 100px;
       border-radius: 50%;

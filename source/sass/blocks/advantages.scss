@@ -31,7 +31,6 @@
     position: absolute;
     top: 25px;
     left: 0;
-  
     width: 60px;
     height: 60px;
     background-color: $color-details;
@@ -41,7 +40,7 @@
 @media (min-width: $tablet-width) {
   .advantages {
     padding-top: 20px;
-    padding-bottom: 0; 
+    padding-bottom: 0;
   }
 
   .advantages__title {
@@ -55,7 +54,6 @@
     font-size: 16px;
     line-height: 24px;
     padding-top: 63px;
-    
   }
 
   .advantages__item {
