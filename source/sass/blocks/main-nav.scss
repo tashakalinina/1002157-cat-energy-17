@@ -46,18 +46,14 @@
 }
 
 .main-nav--opened .main-nav__toggle {
-
   &::before,
   &::after {
     content: "";
-
     position: absolute;
     top: 12px;
     left: 6px;
-
     width: 19px;
     height: 2px;
-
     background-color: $add-header;
   }
 
