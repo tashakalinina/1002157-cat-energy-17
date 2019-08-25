@@ -1,6 +1,5 @@
 .target {
   border: none;
-  width: auto;
   border-top: solid 1px $border-form;
   border-bottom: solid 1px $border-form;
   padding: 0;
@@ -10,11 +9,5 @@
 @media (min-width: $tablet-width) {
   .target {
     border: solid 1px $border-form;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .target {
-    width: 568px;
   }
 }

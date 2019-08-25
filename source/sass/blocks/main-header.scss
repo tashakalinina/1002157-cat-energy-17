@@ -8,6 +8,11 @@
   padding-bottom: 15px;
 }
 
+.main-header__logo img {
+  width: 191px;
+  height: 39px;
+}
+
 @media (min-width: $tablet-width) {
   .main-header {
     flex-direction: row;
@@ -19,6 +24,11 @@
     margin: 0;
   }
 
+  .main-header__logo img {
+    width: 174px;
+    height: auto;
+  }
+
   .main-header__main-nav {
     margin: 0;
   }
@@ -27,5 +37,10 @@
 @media (min-width: $desktop-width) {
   .main-header {
     padding-top: 53px;
+  }
+
+  .main-header__logo img {
+    width: 203px;
+    height: auto;
   }
 }
