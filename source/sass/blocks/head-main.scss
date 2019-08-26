@@ -19,6 +19,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/index-background-mobile@2x.jpg");
+    }
   }
 }
 
@@ -37,6 +41,11 @@
     background-image: url("../img/index-can-mobile@1x.png");
     background-repeat: no-repeat;
     background-position: center;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/index-can-mobile@2x.png");
+      background-size: 280px auto;
+    }
   }
 }
 
@@ -67,6 +76,7 @@
   .head-main {
     color: $header-color;
     padding-top: 60px;
+    min-height: 758px;
 
     &::before {
       display: none;
@@ -90,14 +100,19 @@
 
   .head-main__wrapper {
     &::before {
-      top: 200px;
-      left: 150px;
-      z-index: 10;
-      width: 280px;
-      height: 270px;
-      background-image: url("../img/index-can-mobile@1x.png");
+      top: 180px;
+      left: center;
+      z-index: -1;
+      width: 709px;
+      height: 609px;
+      background-image: url("../img/index-can-tablet@1x.jpg");
       background-repeat: no-repeat;
       background-position: center;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/index-can-tablet@2x.jpg");
+        background-size: 709px auto;
+      }
     }
   }
 
@@ -115,6 +130,7 @@
   .head-main {
     padding-top: 115px;
     padding-left: 80px;
+    min-height: 696px;
 
     &::before {
       display: block;
@@ -126,23 +142,33 @@
       width: 760px;
       height: 696px;
       background-color: $color-details;
-      background-image: url("../img/index-background-mobile@1x.jpg");
+      background-image: url("../img/index-background-desktop@1x.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/index-background-desktop@2x.jpg");
+        background-size: cover;
+      }
     }
   }
 
   .head-main__wrapper {
     &::before {
-      top: 0;
-      left: 40%;
+      top: -110px;
+      left: 35%;
       z-index: 10;
-      width: 280px;
-      height: 270px;
-      background-image: url("../img/index-can-mobile@1x.png");
+      width: 552px;
+      height: 499px;
+      background-image: url("../img/index-can-desktop@1x.png");
       background-repeat: no-repeat;
       background-position: center;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/index-can-desktop@2x.png");
+        background-size: 552px auto;
+      }
     }
   }
 
