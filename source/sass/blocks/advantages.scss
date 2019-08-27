@@ -47,11 +47,7 @@
     }
   }
 
-  &--powder::after {
-    top: 40px;
-    left: 15px;
-    width: 31px;
-    height: 31px;
+  &--powder::before {
     background-image: url("../img/advantage-powder@1x.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -62,11 +58,7 @@
     }
   }
 
-  &--food-intake::after {
-    top: 40px;
-    left: 18px;
-    width: 23px;
-    height: 30px;
+  &--food-intake::before {
     background-image: url("../img/advantage-dining@1x.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -77,11 +69,7 @@
     }
   }
 
-  &--time::after {
-    top: 40px;
-    left: 18px;
-    width: 26px;
-    height: 31px;
+  &--time::before {
     background-image: url("../img/advantage-clock@1x.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -91,6 +79,7 @@
       background-size: 26px auto;
     }
   }
+}
 
 @media (min-width: $tablet-width) {
   .advantages {
@@ -109,6 +98,7 @@
     font-size: 16px;
     line-height: 24px;
     padding-top: 63px;
+    counter-reset: list 0;
   }
 
   .advantages__item {
@@ -125,24 +115,17 @@
       height: 80px;
     }
 
-    &--eco::after {
-      top: 25px;
-      left: 28px;
-    }
-
-    &--powder::after {
-      top: 25px;
-      left: 28px;
-    }
-
-    &--food-intake::after {
-      top: 25px;
-      left: 28px;
-    }
-
-    &--time::after {
-      top: 25px;
-      left: 28px;
+    &::after {
+      counter-increment: list;
+      content: counter(list) "";
+      position: absolute;
+      left: 140px;
+      top: -38px;
+      font-size: 280px;
+      line-height: 280px;
+      font-family: "Oswald", "Arial", sans-serif;
+      color: #f2f2f2;
+      z-index: -1;
     }
   }
 }
