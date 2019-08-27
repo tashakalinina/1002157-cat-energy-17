@@ -35,7 +35,62 @@
     height: 60px;
     background-color: $color-details;
   }
-}
+
+  &--eco::before {
+    background-image: url("../img/advantage-leaf@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/advantage-leaf@2x.png");
+      background-size: 26px auto;
+    }
+  }
+
+  &--powder::after {
+    top: 40px;
+    left: 15px;
+    width: 31px;
+    height: 31px;
+    background-image: url("../img/advantage-powder@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/advantage-powder@2x.png");
+      background-size: 31px auto;
+    }
+  }
+
+  &--food-intake::after {
+    top: 40px;
+    left: 18px;
+    width: 23px;
+    height: 30px;
+    background-image: url("../img/advantage-dining@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/advantage-dining@2x.png");
+      background-size: 23px auto;
+    }
+  }
+
+  &--time::after {
+    top: 40px;
+    left: 18px;
+    width: 26px;
+    height: 31px;
+    background-image: url("../img/advantage-clock@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/advantage-clock@2x.png");
+      background-size: 26px auto;
+    }
+  }
 
 @media (min-width: $tablet-width) {
   .advantages {
@@ -68,6 +123,26 @@
       left: 0;
       width: 80px;
       height: 80px;
+    }
+
+    &--eco::after {
+      top: 25px;
+      left: 28px;
+    }
+
+    &--powder::after {
+      top: 25px;
+      left: 28px;
+    }
+
+    &--food-intake::after {
+      top: 25px;
+      left: 28px;
+    }
+
+    &--time::after {
+      top: 25px;
+      left: 28px;
     }
   }
 }

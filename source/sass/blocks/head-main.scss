@@ -130,13 +130,13 @@
   .head-main {
     padding-top: 115px;
     padding-left: 80px;
-    min-height: 696px;
+    min-height: 440px;
 
     &::before {
       display: block;
       content: "";
       position: absolute;
-      top: -122px;
+      top: -143px;
       left: 50%;
       z-index: -1;
       width: 760px;
